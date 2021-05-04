@@ -57,11 +57,27 @@ const Cta = ({
               </h3>
           </div>
           <div className="cta-action">
-            <Input id="newsletter" type="email" label="Subscribe" labelHidden hasIcon="right" placeholder="Your best email">
-              <svg width="16" height="12" xmlns="http://www.w3.org/2000/svg">
-                <path d="M9 5H1c-.6 0-1 .4-1 1s.4 1 1 1h8v5l7-6-7-6v5z" fill="#376DF9" />
-              </svg>
-            </Input>
+
+            <svg width="120" height="120">
+                <a href="mailto:kylebrazier@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" target="_blank" >
+                <path d="M   0   0
+                        L 120   0
+                        L 120 120
+                        L  60  80
+                        L   0 120
+                        Z"
+                        fill="#0074b8"/>
+                
+                <text x="60"
+                        y="50"
+                        fill="#FFFFFF"
+                        text-anchor="middle"
+                        alignment-baseline="middle">
+                    Email Us!
+                </text>
+                </a>
+            </svg>
+
           </div>
         </div>
       </div>
