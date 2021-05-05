@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Dropdown from 'react-bootstrap/Dropdown'
+import DropdownButton from 'react-bootstrap/DropdownButton'
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -112,7 +114,8 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                    <a href="mailto:mobriensconstruction@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" target="_blank" >
+                      Get a Quote </a>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +123,13 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Menu</Link>
+                      <DropdownButton id="dropdown-basic-button" variant="success" title="Dropdown button">
+                        <Dropdown.Item href="#/action-1">Kitchen</Dropdown.Item>
+                        <Dropdown.Item href="#/action-2">Bathroom</Dropdown.Item>
+                        <Dropdown.Item href="#/action-3">Flooring</Dropdown.Item>
+                        <Dropdown.Item href="#/action-4">Roofing</Dropdown.Item>
+                        <Dropdown.Item href="#/action-5">Renovation</Dropdown.Item>
+                      </DropdownButton>
                       </li>
                     </ul>}
                 </div>
