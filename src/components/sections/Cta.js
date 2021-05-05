@@ -59,7 +59,7 @@ const Cta = ({
           <div className="cta-action">
 
             <svg width="120" height="120">
-                <a href="mailto:kylebrazier@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" target="_blank" >
+                <a href="mailto:mobriensconstruction@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" target="_blank" >
                 <path d="M   0   0
                         L 120   0
                         L 120 120
