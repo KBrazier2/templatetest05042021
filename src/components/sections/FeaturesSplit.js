@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import Carousel from 'react-bootstrap/Carousel';
 
 const propTypes = {
   ...SectionSplitProps.types
@@ -82,11 +83,34 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
+                {/* <Image
                   src={require('./../../assets/images/features-split-image-01.png')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={396} /> */}
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest2.png')}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest3.png')}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest4.png')}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
 
@@ -108,11 +132,34 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
+                {/* <Image
                   src={require('./../../assets/images/features-split-image-02.png')}
                   alt="Features split 02"
                   width={528}
-                  height={396} />
+                  height={396} /> */}
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest3.png')}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest4.png')}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest5.png')}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
 
@@ -134,11 +181,34 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
+                {/* <Image
                   src={require('./../../assets/images/features-split-image-03.png')}
                   alt="Features split 03"
                   width={528}
-                  height={396} />
+                  height={396} /> */}
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest4.png')}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest5.png')}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest6.png')}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
 
@@ -160,11 +230,34 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
+                {/* <Image
                   src={require('./../../assets/images/features-split-image-01.png')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={396} /> */}
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest5.png')}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest6.png')}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest7.png')}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
 
@@ -186,11 +279,34 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
+                {/* <Image
                   src={require('./../../assets/images/features-split-image-01.png')}
                   alt="Features split 01"
                   width={528}
-                  height={396} />
+                  height={396} /> */}
+                <Carousel>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest6.png')}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest7.png')}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest2.png')}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
             </div>
 

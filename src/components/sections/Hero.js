@@ -69,14 +69,14 @@ const Hero = ({
                 Custom Carpentry and Renovation Covering Northern NJ
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
+                {/* <ButtonGroup>
                   <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
                     Get started
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
                     View on Github
                     </Button>
-                </ButtonGroup>
+                </ButtonGroup> */}
               </div>
             </div>
           </div>
@@ -84,37 +84,44 @@ const Hero = ({
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/IGtest.png')}
+                src={require('./../../assets/images/IGtest2.png')}
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=Second slide&bg=282c34"
+                src={require('./../../assets/images/IGtest6.png')}
                 alt="Second slide"
               />
-
-              <Carousel.Caption>
-                <h3>Second slide label</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="holder.js/800x400?text=Third slide&bg=20232a"
+                src={require('./../../assets/images/IGtest5.png')}
                 alt="Third slide"
               />
-
-              <Carousel.Caption>
-                <h3>Third slide label</h3>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('./../../assets/images/IGtest4.png')}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('./../../assets/images/IGtest3.png')}
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src={require('./../../assets/images/IGtest7.png')}
+                alt="Third slide"
+              />
             </Carousel.Item>
           </Carousel>
           {/* <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
