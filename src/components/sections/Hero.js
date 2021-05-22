@@ -106,21 +106,21 @@ const Hero = ({
               <img
                 className="d-block w-100"
                 src={require('./../../assets/images/IGtest4.png')}
-                alt="Third slide"
+                alt="Fourth slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
                 src={require('./../../assets/images/IGtest3.png')}
-                alt="Third slide"
+                alt="Fifth slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
                 src={require('./../../assets/images/IGtest7.png')}
-                alt="Third slide"
+                alt="Sixth slide"
               />
             </Carousel.Item>
           </Carousel>
