@@ -123,7 +123,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                      <DropdownButton id="dropdown-basic-button" variant="success" title="Dropdown button">
+                      <DropdownButton id="dropdown-basic-button" variant="secondary" title="Our Services" size="sm" font="sm">
                         <Dropdown.Item href="#/action-1">Kitchen</Dropdown.Item>
                         <Dropdown.Item href="#/action-2">Bathroom</Dropdown.Item>
                         <Dropdown.Item href="#/action-3">Flooring</Dropdown.Item>
