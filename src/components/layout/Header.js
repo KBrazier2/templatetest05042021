@@ -124,11 +124,11 @@ const Header = ({
                     >
                       <li>
                       <DropdownButton id="dropdown-basic-button" variant="secondary" title="Our Services" size="sm" >
-                        <Dropdown.Item href="#Kitchen">Kitchen</Dropdown.Item>
-                        <Dropdown.Item href="#Bathroom">Bathroom</Dropdown.Item>
-                        <Dropdown.Item href="#Flooring">Flooring</Dropdown.Item>
-                        <Dropdown.Item href="#Roofing">Roofing</Dropdown.Item>
-                        <Dropdown.Item href="#Renovation">Renovation</Dropdown.Item>
+                        <Dropdown.Item href="#Kitchens">Kitchens</Dropdown.Item>
+                        <Dropdown.Item href="#Bathrooms">Bathrooms</Dropdown.Item>
+                        <Dropdown.Item href="#Basements">Basements</Dropdown.Item>
+                        <Dropdown.Item href="#DecksAndPatios">Decks/Patios</Dropdown.Item>
+                        <Dropdown.Item href="#Additions">Additions</Dropdown.Item>
                         <Dropdown.Item href="#aboutUs">About Us</Dropdown.Item>
                       </DropdownButton>
                       </li>

@@ -174,7 +174,7 @@ const FeaturesSplit = ({
                   Basements
                   </h3>
                 <p className="m-0">
-                  Need a place to entertain? 
+                  Need a place to entertain? Comfort is important especially when you need your next big project done with custom carpentry! 
                   </p>
               </div>
               <div className={
@@ -189,7 +189,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
-                  <a id="Flooring" />
+                  <a id="Basements" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -218,13 +218,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  All is Sunny in the Tristate Area
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Roofing
+                  Decks and Patios
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Get ready for outdoor activities as we transform your backyard for your friends and family to soak up the sun!
                   </p>
               </div>
               <div className={
@@ -239,7 +239,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
-                  <a id="Roofing" />
+                  <a id="DecksAndPatios" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -268,13 +268,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Protection is Key
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Renovation
+                  Roofing
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Protect your home from the elements and do it in style! Let us do the dangerous climbing for you! While we're at it, let's upgrade your doors, windows, and paint!
                   </p>
               </div>
               <div className={
@@ -289,7 +289,57 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
-                  <a id="Renovation" />
+                  <a id="Roofing" />
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest6.png')}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest7.png')}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/IGtest2.png')}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+            </div>
+
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Expand the Horizons
+                  </div>
+                <h3 className="mt-0 mb-12">
+                  Additions
+                  </h3>
+                <p className="m-0">
+                  A family can never be too big, nor can your home! Send us your vision and we'll make it a reality!
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                {/* <Image
+                  src={require('./../../assets/images/features-split-image-01.png')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} /> */}
+                <Carousel>
+                  <a id="Additions" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
