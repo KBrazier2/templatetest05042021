@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { CaretCircleUp } from "phosphor-react";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,7 +30,7 @@ export default function ScrollToTop() {
     <div className="scroll-to-top">
       {isVisible && 
         <div onClick={scrollToTop}>
-          <button><img src='https://i.postimg.cc/44Ytsk8Z/top-arrow-emoj.png' alt='Go to top'/></button>
+            <CaretCircleUp size={64} color={"teal"} z-index={1} />
         </div>}
     </div>
   );
