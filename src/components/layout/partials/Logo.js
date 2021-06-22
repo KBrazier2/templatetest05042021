@@ -23,8 +23,8 @@ const Logo = ({
           <Image
             src={require('./../../../assets/images/obrienlogo.png')}
             alt="Open"
-            width={150}
-            height={150} />
+            width={200}
+            height={200} />
         </Link>
       </h1>
     </div>

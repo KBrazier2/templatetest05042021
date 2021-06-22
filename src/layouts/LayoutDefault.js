@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
+import ScrollToTop from '../components/layout/partials/ScrollToTop';
 
 const LayoutDefault = ({ children }) => (
   <>
@@ -8,6 +9,7 @@ const LayoutDefault = ({ children }) => (
     <main className="site-content">
       {children}
     </main>
+    <ScrollToTop />
     <Footer />
   </>
 );

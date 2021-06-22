@@ -123,12 +123,13 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                      <DropdownButton id="dropdown-basic-button" variant="secondary" title="Our Services" size="sm" font="sm">
-                        <Dropdown.Item href="#/action-1">Kitchen</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Bathroom</Dropdown.Item>
-                        <Dropdown.Item href="#/action-3">Flooring</Dropdown.Item>
-                        <Dropdown.Item href="#/action-4">Roofing</Dropdown.Item>
-                        <Dropdown.Item href="#/action-5">Renovation</Dropdown.Item>
+                      <DropdownButton id="dropdown-basic-button" variant="secondary" title="Our Services" size="sm" >
+                        <Dropdown.Item href="#Kitchen">Kitchen</Dropdown.Item>
+                        <Dropdown.Item href="#Bathroom">Bathroom</Dropdown.Item>
+                        <Dropdown.Item href="#Flooring">Flooring</Dropdown.Item>
+                        <Dropdown.Item href="#Roofing">Roofing</Dropdown.Item>
+                        <Dropdown.Item href="#Renovation">Renovation</Dropdown.Item>
+                        <Dropdown.Item href="#aboutUs">About Us</Dropdown.Item>
                       </DropdownButton>
                       </li>
                     </ul>}

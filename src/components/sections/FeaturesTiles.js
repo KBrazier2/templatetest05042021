@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
+import { ForkKnife, Drop, Sun, Wall } from "phosphor-react";
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -45,7 +46,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: "At O'Brien's Construction we offer a wide range of services to cover all types of home improvement. We do custom design and construction for cabinets, built-in units, benches and shelving systems. We specialize in renovations, whether it's your kitchen, bathroom, or basement, we have it covered."
   };
 
   return (
@@ -61,20 +62,21 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
+                  <div className="mb-16">
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-01.svg')}
                       alt="Features tile icon 01"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
+                    <ForkKnife color={"white"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Kitchen
+                    Kitchens
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    
                     </p>
                 </div>
               </div>
@@ -83,20 +85,21 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
+                  <div className="mb-16">
+                    {/* <Image
                       src={require('./../../assets/images/feature-tile-icon-02.svg')}
                       alt="Features tile icon 02"
                       width={64}
-                      height={64} />
+                      height={64} /> */}
+                    <Drop color={"white"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Bathroom
+                    Bathrooms
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    
                     </p>
                 </div>
               </div>
@@ -115,10 +118,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Roofing
+                    Basements
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    
                     </p>
                 </div>
               </div>
@@ -137,10 +140,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Siding
+                    Decks/Patios
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    
                     </p>
                 </div>
               </div>
@@ -159,10 +162,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Bedroom
+                    Roofing
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    
                     </p>
                 </div>
               </div>
@@ -181,10 +184,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Plumbing
+                    Additions
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    
                     </p>
                 </div>
               </div>

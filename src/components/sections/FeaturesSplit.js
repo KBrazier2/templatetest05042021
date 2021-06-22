@@ -68,13 +68,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Re-Energize Your Hunger
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Kitchen
+                  Kitchens
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Having your dream kitchen will bring the best out of your cooking needs. Let us be the ones to set you up with success by installing new cabinets or your large appliances.
                   </p>
               </div>
               <div className={
@@ -89,6 +89,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
+                  <a id="Kitchen" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -117,13 +118,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Refreshingly New
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Bathroom
+                  Bathrooms
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  When you need to freshen up for your day, a brand new bathroom can leave you not only physically clean, but mentally as well. We'll take care of that grit and grime such as tiles and flooring!
                   </p>
               </div>
               <div className={
@@ -138,6 +139,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
+                  <a id="Bathroom" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -166,13 +168,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Not just for Storage
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Roofing
+                  Basements
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Need a place to entertain? 
                   </p>
               </div>
               <div className={
@@ -187,6 +189,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
+                  <a id="Flooring" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -218,7 +221,7 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Kitchen
+                  Roofing
                   </h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -236,6 +239,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
+                  <a id="Roofing" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -267,7 +271,7 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Kitchen
+                  Renovation
                   </h3>
                 <p className="m-0">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -285,6 +289,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} /> */}
                 <Carousel>
+                  <a id="Renovation" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
