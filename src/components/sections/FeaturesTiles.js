@@ -68,7 +68,7 @@ const FeaturesTiles = ({
                       alt="Features tile icon 01"
                       width={64}
                       height={64} /> */}
-                    <ForkKnife color={"white"} size={64} />
+                    <ForkKnife color={"teal"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -91,7 +91,7 @@ const FeaturesTiles = ({
                       alt="Features tile icon 02"
                       width={64}
                       height={64} /> */}
-                    <Drop color={"white"} size={64} />
+                    <Drop color={"teal"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">

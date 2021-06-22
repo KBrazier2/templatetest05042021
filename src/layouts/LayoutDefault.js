@@ -9,8 +9,9 @@ const LayoutDefault = ({ children }) => (
     <main className="site-content">
       {children}
     </main>
-    <ScrollToTop />
+    
     <Footer />
+    <ScrollToTop />
   </>
 );
 
