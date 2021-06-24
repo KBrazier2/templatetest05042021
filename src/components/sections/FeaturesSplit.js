@@ -88,8 +88,8 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} /> */}
-                <Carousel>
-                  <a id="Kitchen" />
+                <a id="Kitchen" />
+                <Carousel>  
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -138,8 +138,8 @@ const FeaturesSplit = ({
                   alt="Features split 02"
                   width={528}
                   height={396} /> */}
+                <a id="Bathroom" />
                 <Carousel>
-                  <a id="Bathroom" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -188,8 +188,8 @@ const FeaturesSplit = ({
                   alt="Features split 03"
                   width={528}
                   height={396} /> */}
+                <a id="Basements" />
                 <Carousel>
-                  <a id="Basements" />
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -238,8 +238,8 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} /> */}
-                <Carousel>
-                  <a id="DecksAndPatios" />
+                <a id="DecksAndPatios" />
+                <Carousel>  
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -288,8 +288,8 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} /> */}
-                <Carousel>
                   <a id="Roofing" />
+                <Carousel>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
@@ -338,8 +338,8 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} /> */}
-                <Carousel>
-                  <a id="Additions" />
+                <a id="Additions" />
+                <Carousel>  
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
