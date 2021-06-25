@@ -30,7 +30,7 @@ export default function ScrollToTop() {
     <div className="scroll-to-top">
       {isVisible && 
         <div onClick={scrollToTop}>
-            <CaretCircleUp size={64} color={"teal"} z-index={1} />
+            <CaretCircleUp size={64} color={"black"} z-index={1} />
         </div>}
     </div>
   );

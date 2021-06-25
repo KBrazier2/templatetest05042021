@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-import { ForkKnife, Drop, Sun, Wall } from "phosphor-react";
+import { ForkKnife, Drop, PaintBrushBroad, Sun, CaretUp, Wall } from "phosphor-react";
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -63,12 +63,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    {/* <Image
-                      src={require('./../../assets/images/feature-tile-icon-01.svg')}
-                      alt="Features tile icon 01"
-                      width={64}
-                      height={64} /> */}
-                    <ForkKnife color={"teal"} size={64} />
+                    <ForkKnife color={"#565656"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -86,12 +81,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    {/* <Image
-                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
-                      alt="Features tile icon 02"
-                      width={64}
-                      height={64} /> */}
-                    <Drop color={"teal"} size={64} />
+                    <Drop color={"#565656"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -108,12 +98,9 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-03.svg')}
-                      alt="Features tile icon 03"
-                      width={64}
-                      height={64} />
+                  <div className="mb-16">
+
+                    <PaintBrushBroad color={"#565656"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -130,12 +117,8 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
+                  <div className="mb-16">
+                    <Sun color={"#565656"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -152,12 +135,8 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
+                  <div className="mb-16">
+                    <CaretUp color={"#565656"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -174,12 +153,8 @@ const FeaturesTiles = ({
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
+                  <div className="mb-16">
+                    <Wall color={"#565656"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
