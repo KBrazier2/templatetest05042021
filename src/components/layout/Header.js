@@ -114,8 +114,12 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
+                    <a>
+                      Call or Text us Today! 732-768-8980</a>
+                    </li>
+                    <li>
                     <a href="mailto:mobriensconstruction@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" target="_blank" >
-                      Get a Quote </a>
+                      Send us an Email!</a>
                     </li>
                   </ul>
                   {!hideSignin &&

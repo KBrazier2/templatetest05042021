@@ -19,16 +19,10 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <a href="mailto:mobriensconstruction@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" target="_blank" >Contact</a>
         </li>
         <li>
-          <Link href="#aboutUs">About us</Link>
-        </li>
-        <li>
-          <Link to="#0">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="#0">Support</Link>
+          <a href="#aboutUs">About us</a>
         </li>
       </ul>
     </nav>
