@@ -51,8 +51,8 @@ const ProfileSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Get To Know Our Team!',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'A Little About Us',
+    paragraph: 'Get to know our background and where we come from!'
   };
 
   return (
@@ -69,7 +69,7 @@ const ProfileSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Founder of O'Brien's Construction / CEO
+                  Founder of O'Brien's Construction
                   </div>
                 <h3 className="mt-0 mb-12">
                   Matt O'Brien
@@ -115,201 +115,7 @@ const ProfileSplit = ({
               </div>
             </div>
 
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Vice President
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  John Doe
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} /> */}
-                <Carousel>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest3.png')}
-                      alt="First slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest7.png')}
-                      alt="Second slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest5.png')}
-                      alt="Third slide"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Site Supervisor
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Jane Doe
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} /> */}
-                <Carousel>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest4.png')}
-                      alt="First slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest5.png')}
-                      alt="Second slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest7.png')}
-                      alt="Third slide"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Technician
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  David Davidson
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} /> */}
-                <Carousel>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest5.png')}
-                      alt="First slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest6.png')}
-                      alt="Second slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest7.png')}
-                      alt="Third slide"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Contractor
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Tina Thompson
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} /> */}
-                <Carousel>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest6.png')}
-                      alt="First slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest7.png')}
-                      alt="Second slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src={require('./../../assets/images/IGtest2.png')}
-                      alt="Third slide"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-            </div>
+            
 
           </div>
         </div>

@@ -88,7 +88,7 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} /> */}
-                <a id="Kitchen" />
+                <a id="Kitchens" />
                 <Carousel>  
                   <Carousel.Item>
                     <img
@@ -138,7 +138,7 @@ const FeaturesSplit = ({
                   alt="Features split 02"
                   width={528}
                   height={396} /> */}
-                <a id="Bathroom" />
+                <a id="Bathrooms" />
                 <Carousel>
                   <Carousel.Item>
                     <img
