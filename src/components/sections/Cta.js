@@ -52,9 +52,10 @@ const Cta = ({
           className={innerClasses}
         >
           <div className="cta-slogan">
-            <h3 className="m-0">
+            <h2 className="m-0">
               Looking to start your new project?
-            </h3>
+            </h2>
+            <h4>Call or Text! (732)-768-8980</h4>
           </div>
           <div className="cta-action">
 
@@ -66,7 +67,7 @@ const Cta = ({
                         L  60  80
                         L   0 120
                         Z"
-                        fill="#0074b8"/>
+                        fill="#898989"/>
                 
                 <text x="60"
                         y="50"
