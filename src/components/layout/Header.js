@@ -1,10 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
-import Dropdown from 'react-bootstrap/Dropdown'
-import DropdownButton from 'react-bootstrap/DropdownButton'
+import Dropdown from 'react-bootstrap/Dropdown';
+import DropdownButton from 'react-bootstrap/DropdownButton';
+import $ from 'jquery';
+import Popper from 'popper.js';
+
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -127,7 +129,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                      <DropdownButton id="dropdown-basic-button" variant="secondary" title="Our Services" size="sm" >
+                      <DropdownButton id="dropdown-basic-button" variant="secondary" title="Our Services" size="sm">
                         <Dropdown.Item href="#Kitchens">Kitchens</Dropdown.Item>
                         <Dropdown.Item href="#Bathrooms">Bathrooms</Dropdown.Item>
                         <Dropdown.Item href="#Basements">Basements</Dropdown.Item>

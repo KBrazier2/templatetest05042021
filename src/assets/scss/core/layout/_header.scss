@@ -92,7 +92,7 @@
 }
 
 @include media( '<=medium' ) {
-
+	
 	.header-nav-toggle {
 		display: block;
 
@@ -108,7 +108,7 @@
 			background: color-bg(menu-mobile);
 			max-height: 0;
 	        opacity: 0;
-	        overflow: hidden;
+	        // overflow: hidden;
 	        transition: max-height .25s ease-in-out, opacity .15s;
 
 			&.is-active {
@@ -125,10 +125,12 @@
 				text-align: center;
 
 			    a:not(.button) {
-					display: inline-flex;
+					// display: inline-flex;
 			        @include anchor-aspect(header-mobile);
 					padding-top: $header-nav--padding-v__mobile / 2;
 					padding-bottom: $header-nav--padding-v__mobile / 2;
+					color:#333333;
+
 			    }
 			}
 
