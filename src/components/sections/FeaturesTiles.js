@@ -63,7 +63,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    <ForkKnife color={"#565656"} size={64} />
+                    <ForkKnife color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -81,7 +81,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    <Drop color={"#565656"} size={64} />
+                    <Drop color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -100,7 +100,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
 
-                    <PaintBrushBroad color={"#565656"} size={64} />
+                    <PaintBrushBroad color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -118,7 +118,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    <Sun color={"#565656"} size={64} />
+                    <Sun color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -136,7 +136,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    <CaretUp color={"#565656"} size={64} />
+                    <CaretUp color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
@@ -154,7 +154,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    <Wall color={"#565656"} size={64} />
+                    <Wall color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">

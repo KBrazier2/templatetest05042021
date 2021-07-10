@@ -69,7 +69,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Roman Level</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Google</a>
+                    <a href="https://www.google.com/search?_ga=2.169796964.452806684.1625923278-1497693009.1625923278&q=O%27Brien%27s+Construction+LLC&ludocid=12685467263311495001&lsig=AB86z5VachZ15Wg_j97n9AUdNZI4" target="blank">Google</a>
                   </span>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Yelp</a>
+                    <a href="https://www.yelp.com/biz/o-briens-construction-asbury-park-5" target="blank">Yelp</a>
                   </span>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Ben Stafford</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">Google</a>
+                    <a href="https://www.google.com/search?_ga=2.169796964.452806684.1625923278-1497693009.1625923278&q=O%27Brien%27s+Construction+LLC&ludocid=12685467263311495001&lsig=AB86z5VachZ15Wg_j97n9AUdNZI4" target="blank">Google</a>
                   </span>
                 </div>
               </div>
