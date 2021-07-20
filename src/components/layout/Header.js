@@ -4,9 +4,6 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
-import $ from 'jquery';
-import Popper from 'popper.js';
-
 
 const propTypes = {
   navPosition: PropTypes.string,

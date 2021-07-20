@@ -11,6 +11,14 @@
 	margin-bottom: $cta-slogan--padding-v__mobile;
 }
 
+.veteran {
+	background-image: url(../../../images/flag.jpg);
+}
+
+.center{
+	text-align: center;
+}
+
 @include media( '>medium' ) {
 
 	.cta {
@@ -32,7 +40,7 @@
 
 		.cta-split & {
 			margin-bottom: 0;
-			margin-right: $cta-slogan--padding-h__desktop;
+			// margin-right: $cta-slogan--padding-h__desktop;
 		}
 	}
 }
