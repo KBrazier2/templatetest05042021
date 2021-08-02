@@ -18,7 +18,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="mailto:mobriensconstruction@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" target="blank">
+          <a href="mailto:mobriensconstruction@gmail.com?&subject=Project%20Inquiry%20&body=Hi%20there!%20We%20would%20like%20to%20inquire%20about%20a%20future%20project!" rel="noopener noreferrer" target="blank">
           <svg
           enable-background="new 0 0 32 32"
           viewBox="0 0 32 32"
@@ -34,7 +34,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.google.com/search?_ga=2.169796964.452806684.1625923278-1497693009.1625923278&q=O%27Brien%27s+Construction+LLC&ludocid=12685467263311495001&lsig=AB86z5VachZ15Wg_j97n9AUdNZI4" target="blank">
+          <a href="https://www.google.com/search?_ga=2.169796964.452806684.1625923278-1497693009.1625923278&q=O%27Brien%27s+Construction+LLC&ludocid=12685467263311495001&lsig=AB86z5VachZ15Wg_j97n9AUdNZI4" rel="noopener noreferrer" target="blank">
           <svg 
             enable-background="new 0 0 32 32" 
             viewBox="0 0 32 32" 
@@ -48,7 +48,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.yelp.com/biz/o-briens-construction-asbury-park-5" target="_blank">
+          <a href="https://www.yelp.com/biz/o-briens-construction-asbury-park-5" rel="noopener noreferrer" target="_blank">
           <svg 
             enable-background="new 0 0 64 64" 
             viewBox="0 0 64 64" 
@@ -64,7 +64,7 @@ const FooterSocial = ({
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/obriens_construction_llc/" target="_blank">
+          <a href="https://www.instagram.com/obriens_construction_llc/" rel="noopener noreferrer" target="_blank">
             <svg 
               enable-background="new 0 0 32 32" 
               xmlns="http://www.w3.org/2000/svg"
