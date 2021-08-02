@@ -43,7 +43,6 @@ body{
 }
 
 .carousel-inner{
-	border-style:solid;
-	border-width: 10px;
-	border-color: black;
+	border-radius: 8%;
+	box-shadow: 10px 5px 5px black;
 }
