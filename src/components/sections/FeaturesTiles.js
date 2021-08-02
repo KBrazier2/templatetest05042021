@@ -135,12 +135,12 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    <Wall color={"#bebebe"} size={64} />
+                    <CaretUp color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Tiling
+                    Roofing/Siding
                     </h4>
                   <p className="m-0 text-sm">
                     
@@ -153,7 +153,7 @@ const FeaturesTiles = ({
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="mb-16">
-                    <CaretUp color={"#bebebe"} size={64} />
+                    <Wall color={"#bebebe"} size={64} />
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
