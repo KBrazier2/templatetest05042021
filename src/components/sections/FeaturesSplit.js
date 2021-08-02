@@ -52,7 +52,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Dive in Deeper',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'Below you will find examples of the broad scope of work we offer. We will ensure that no task is unturn.'
   };
 
   return (
