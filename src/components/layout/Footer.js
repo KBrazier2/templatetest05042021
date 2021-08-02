@@ -36,7 +36,7 @@ const Footer = ({
       <div className="container footer">
         <div className={
           classNames(
-            'site-footer-inner',
+            'site-footer-inner container',
             topDivider && 'has-top-divider'
           )}>
           <div className="footer-top space-between text-xxs">
