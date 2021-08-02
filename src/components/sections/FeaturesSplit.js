@@ -306,10 +306,10 @@ const FeaturesSplit = ({
                   Protection is Key
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Roofing
+                  Tiling
                   </h3>
                 <p className="m-0">
-                  Protect your home from the elements and do it in style! Let us do the dangerous climbing for you! While we're at it, let's upgrade your doors, windows, and paint!
+                  Give your rooms a sleek and clean look! Stepping into one of your rooms should always give that sense of "wow", even from the floors!
                   </p>
               </div>
               <div className={
@@ -323,7 +323,7 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} /> */}
-                  <a id="Roofing" />
+                  <a id="Tiling" />
                 <Carousel>
                   <Carousel.Item>
                     <img
