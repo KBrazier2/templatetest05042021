@@ -228,22 +228,57 @@ const FeaturesSplit = ({
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest4.png')}
+                      src={require('./../../assets/images/02square.jpg')}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest5.png')}
+                      src={require('./../../assets/images/03square.jpg')}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest6.png')}
+                      src={require('./../../assets/images/54square.jpg')}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/09square.jpg')}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/10square.jpg')}
+                      alt="Fifth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/46square.jpg')}
+                      alt="Sixth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/48square.jpg')}
+                      alt="Seventh slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/49square.jpg')}
+                      alt="Eighth slide"
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -278,22 +313,57 @@ const FeaturesSplit = ({
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest5.png')}
+                      src={require('./../../assets/images/04square.jpg')}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest6.png')}
+                      src={require('./../../assets/images/17square.jpg')}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest7.png')}
+                      src={require('./../../assets/images/18square.jpg')}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/19square.jpg')}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/20square.jpg')}
+                      alt="Fifth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/21square.jpg')}
+                      alt="Sixth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/53square.jpg')}
+                      alt="Seventh slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/55square.jpg')}
+                      alt="Eighth slide"
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -306,10 +376,10 @@ const FeaturesSplit = ({
                   Protection is Key
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Tiling
+                  Roofing/Siding
                   </h3>
                 <p className="m-0">
-                  Give your rooms a sleek and clean look! Stepping into one of your rooms should always give that sense of "wow", even from the floors!
+                  Not only should the roof of your home protect you and your family, but why not have it look spectacular as well?! Let us climb the ladders for you!
                   </p>
               </div>
               <div className={
@@ -323,27 +393,55 @@ const FeaturesSplit = ({
                   alt="Features split 01"
                   width={528}
                   height={396} /> */}
-                  <a id="Tiling" />
+                  <a id="RoofingAndSiding" />
                 <Carousel>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest6.png')}
+                      src={require('./../../assets/images/19square.jpg')}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest7.png')}
+                      src={require('./../../assets/images/42square.jpg')}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest2.png')}
+                      src={require('./../../assets/images/44square.jpg')}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/50square.jpg')}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/51square.jpg')}
+                      alt="Fifth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/52square.jpg')}
+                      alt="Sixth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/04square.jpg')}
+                      alt="Seventh slide"
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -378,22 +476,71 @@ const FeaturesSplit = ({
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest6.png')}
+                      src={require('./../../assets/images/38square.jpg')}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest7.png')}
+                      src={require('./../../assets/images/04square.jpg')}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={require('./../../assets/images/IGtest2.png')}
+                      src={require('./../../assets/images/06square.jpg')}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/07square.jpg')}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/08square.jpg')}
+                      alt="Fifth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/11square.jpg')}
+                      alt="Sixth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/26square.jpg')}
+                      alt="Seventh slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/27square.jpg')}
+                      alt="Eighth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/39square.jpg')}
+                      alt="Ninth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={require('./../../assets/images/40square.jpg')}
+                      alt="Tenth slide"
                     />
                   </Carousel.Item>
                 </Carousel>
