@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
 import Carousel from 'react-bootstrap/Carousel';
 
 const propTypes = {
@@ -83,12 +82,7 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} /> */}
-                <a id="Kitchens" />
+                <div id="Kitchens" />
                 <Carousel>  
                   <Carousel.Item>
                     <img
@@ -140,12 +134,8 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
-                  alt="Features split 02"
-                  width={528}
-                  height={396} /> */}
-                <a id="Bathrooms" />
+
+                <div id="Bathrooms" />
                 <Carousel>
                   <Carousel.Item>
                     <img
@@ -218,12 +208,8 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
-                  width={528}
-                  height={396} /> */}
-                <a id="Basements" />
+
+                <div id="Basements" />
                 <Carousel>
                   <Carousel.Item>
                     <img
@@ -268,12 +254,8 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} /> */}
-                <a id="DecksAndPatios" />
+
+                <div id="DecksAndPatios" />
                 <Carousel>  
                   <Carousel.Item>
                     <img
@@ -318,12 +300,8 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} /> */}
-                  <a id="Tiling" />
+
+                  <div id="Tiling" />
                 <Carousel>
                   <Carousel.Item>
                     <img
@@ -368,12 +346,8 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                {/* <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} /> */}
-                <a id="Additions" />
+
+                <div id="Additions" />
                 <Carousel>  
                   <Carousel.Item>
                     <img

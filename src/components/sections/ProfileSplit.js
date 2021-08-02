@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
 import Carousel from 'react-bootstrap/Carousel';
 
 const propTypes = {
@@ -62,7 +61,7 @@ const ProfileSplit = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <a id="aboutUs" />
+          <div id="aboutUs" />
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
