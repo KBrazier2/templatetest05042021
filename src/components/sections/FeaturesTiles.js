@@ -2,7 +2,6 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
-import Image from '../elements/Image';
 import { ForkKnife, Drop, PaintBrushBroad, Sun, CaretUp, Wall } from "phosphor-react";
 
 const propTypes = {
