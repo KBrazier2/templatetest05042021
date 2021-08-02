@@ -4,6 +4,8 @@
 	.section-inner {
 		padding-top: $cta--padding-t__mobile;
 		padding-bottom: $cta--padding-b__mobile;
+		box-shadow: 10px 10px 20px black;
+
 	}
 }
 
@@ -13,6 +15,8 @@
 
 .veteran {
 	background-image: url(../../../images/flag.jpg);
+	box-shadow: 10px 10px 20px black;
+
 }
 
 .center{
