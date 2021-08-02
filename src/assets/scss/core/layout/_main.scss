@@ -40,9 +40,10 @@ body{
 
 .site-content {
     flex: 1 0 auto;
+	margin-top: -75px;
 }
 
 .carousel-inner{
-	border-radius: 8%;
+	border-radius: 20px;
 	box-shadow: 10px 5px 5px black;
 }
