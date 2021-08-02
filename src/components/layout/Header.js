@@ -131,6 +131,7 @@ const Header = ({
                         <Dropdown.Item href="#Bathrooms">Bathrooms</Dropdown.Item>
                         <Dropdown.Item href="#Basements">Basements</Dropdown.Item>
                         <Dropdown.Item href="#DecksAndPatios">Decks/Patios</Dropdown.Item>
+                        <Dropdown.Item href="#Tiling">Tiling</Dropdown.Item>
                         <Dropdown.Item href="#Additions">Additions</Dropdown.Item>
                         <Dropdown.Item href="#aboutUs">About Us</Dropdown.Item>
                       </DropdownButton>

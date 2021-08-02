@@ -31,6 +31,9 @@ const FooterNav = ({
           <a href="#DecksAndPatios">Decks/Patios</a>
         </li>
         <li>
+          <a href="#Tiling">Tiling</a>
+        </li>
+        <li>
           <a href="#Additions">Additions</a>
         </li>
         <li>
