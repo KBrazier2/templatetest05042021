@@ -69,6 +69,13 @@ const Hero = ({
             <Carousel.Item>
               <img
                 className="d-block w-100"
+                src={require('./../../assets/images/constructiontest.jpg')}
+                alt="Test slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
                 src={require('./../../assets/images/edit22.png')}
                 alt="First slide"
               />
