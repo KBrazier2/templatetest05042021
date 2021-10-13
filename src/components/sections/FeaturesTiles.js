@@ -158,7 +158,7 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Additions
+                    Custom Interior/Exterior
                     </h4>
                   <p className="m-0 text-sm">
                     

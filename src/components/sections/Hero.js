@@ -69,21 +69,14 @@ const Hero = ({
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/constructiontest.jpg')}
-                alt="Test slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('./../../assets/images/edit22.png')}
+                src={require('./../../assets/images/edit58.png')}
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/edit55.png')}
+                src={require('./../../assets/images/edit57.png')}
                 alt="Second slide"
               />
             </Carousel.Item>
@@ -97,71 +90,36 @@ const Hero = ({
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/edit49.png')}
+                src={require('./../../assets/images/edit45.png')}
                 alt="Fourth slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/edit47.png')}
+                src={require('./../../assets/images/edit29.png')}
                 alt="Fifth slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/edit44.png')}
+                src={require('./../../assets/images/edit40.png')}
                 alt="Sixth slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/edit37.png')}
+                src={require('./../../assets/images/edit08.png')}
                 alt="Seventh slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src={require('./../../assets/images/edit29.png')}
-                alt="Eighth slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
                 src={require('./../../assets/images/edit25.png')}
-                alt="Ninth slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('./../../assets/images/edit18.png')}
-                alt="Tenth slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('./../../assets/images/edit08.png')}
-                alt="Eleventh slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('./../../assets/images/edit04.png')}
-                alt="Twelfth slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src={require('./../../assets/images/edit56.png')}
-                alt="Thirteenth slide"
+                alt="Eighth slide"
               />
             </Carousel.Item>
           </Carousel>
