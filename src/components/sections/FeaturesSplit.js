@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Dive in Deeper',
-    paragraph: 'Below you will find examples of the broad scope of work we offer. We will ensure that no task is unturn.'
+    paragraph: 'Below you will find the wide range of expertise we offer. Feel confident in knowing no stone will be left unturned.'
   };
 
   return (
